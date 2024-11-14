@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "privapp-permissions-sony.xml",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-sony.xml",
+    filename_from_src: true,
+}

@@ -1,0 +1,22 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+java_library {
+    name: "com.sonymobile.album.internal",
+    installable: true,
+    product_specific: true,
+    sdk_version: "current",
+    srcs: ["src/**/*.java"],
+    required: ["com.sonymobile.album.internal.xml"]
+}
+
+prebuilt_etc {
+    name: "com.sonymobile.album.internal.xml",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.sonymobile.album.internal.xml",
+    filename_from_src: true,
+}
