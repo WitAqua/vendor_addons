@@ -14,8 +14,5 @@
 # limitations under the License.
 #
 
-ifeq ($(BOARD_VENDOR),addon)
-
-include $(call all-subdir-makefiles)
-
-endif
+LOCAL_PATH := $(call my-dir)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
