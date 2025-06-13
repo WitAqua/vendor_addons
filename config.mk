@@ -18,3 +18,18 @@ LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     com.sony.device
+
+# Icon Shapes
+PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
+    IconShapeIosOverlay \
+    IconShapeLeafOverlay \
+    IconShapeMeowOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeSamsungOverlay \
+    IconShapeScrollOverlay \
+    IconShapeStretchedOverlay
