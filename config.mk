@@ -19,6 +19,17 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     com.sony.device
 
+# Icon Packs
+PRODUCT_PACKAGES += \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay \
+    IconPackAuroraAndroidOverlay \
+    IconPackAuroraSystemUIOverlay \
+    IconPackGradiconAndroidOverlay \
+    IconPackGradiconSystemUIOverlay \
+    IconPackLornAndroidOverlay \
+    IconPackLornSystemUIOverlay
+
 # Icon Shapes
 PRODUCT_PACKAGES += \
     IconShapeCloudyOverlay \
@@ -33,3 +44,4 @@ PRODUCT_PACKAGES += \
     IconShapeSamsungOverlay \
     IconShapeScrollOverlay \
     IconShapeStretchedOverlay
+
