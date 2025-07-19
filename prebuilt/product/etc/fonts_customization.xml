@@ -57,6 +57,11 @@
         </font>
     </family>
 
+    <!-- Mikachan -->
+    <family customizationType="new-named-family" name="Mikachan">
+        <font weight="400" style="normal">Mikachan.ttf</font>
+    </family>
+
     <!-- Rubik -->
     <family customizationType="new-named-family" name="rubik">
         <font weight="400" style="normal">Rubik-Regular.ttf</font>

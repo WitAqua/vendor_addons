@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     FontKoruriOverlay \
     FontLatoOverlay \
     FontMejiroOverlay \
+    FontMikachanOverlay \
     FontRubikOverlay
 
 # Include {Lato,Rubik} fonts
