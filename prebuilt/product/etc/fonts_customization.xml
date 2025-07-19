@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fonts-modification version="1">
 
+    <!-- Koruri -->
+    <family customizationType="new-named-family" name="Koruri">
+        <font weight="300" style="normal" postScriptName="Koruri-Light">
+            Koruri-Light.ttf
+        </font>
+        <font weight="400" style="normal" postScriptName="Koruri-Regular">
+            Koruri-Regular.ttf
+        </font>
+        <font weight="600" style="normal" postScriptName="Koruri-SemiBold">
+            Koruri-SemiBold.ttf
+        </font>
+        <font weight="700" style="normal" postScriptName="Koruri-Bold">
+            Koruri-Bold.ttf
+        </font>
+        <font weight="800" style="normal" postScriptName="Koruri-ExtraBold">
+            Koruri-ExtraBold.ttf
+        </font>
+    </family>
+
     <!-- Lato -->
     <family customizationType="new-named-family" name="lato">
         <font weight="400" style="normal">Lato-Regular.ttf</font>

@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+    FontKoruriOverlay \
     FontLatoOverlay \
     FontMejiroOverlay \
     FontRubikOverlay
